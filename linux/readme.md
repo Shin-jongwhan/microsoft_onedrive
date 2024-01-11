@@ -15,3 +15,37 @@ wget -O test.txt "https://theragenbio365-my.sharepoint.com/:t:/g/personal/jonghw
 ### <br/>
 
 
+## 리눅스에 onedrive 연결 방법
+### 아래 블로그를 참고하였다.
+### https://velog.io/@openjr/%EC%9A%B0%EB%B6%84%ED%88%AC-Onedrive-%EC%84%A4%EC%B9%98
+### <br/>
+
+### config 를 복사
+```
+cp config ~/.config/onedrive/config
+```
+
+### config 를 복사하고 나서 다음과 같이 수정하였다.
+### 기능하게 하려면 주석 처리를 지워야 한다.
+```
+# Configuration for OneDrive Linux Client
+# This file contains the list of supported configuration fields
+# with their default values.
+# All values need to be enclosed in quotes
+# When changing a config option below, remove the '#' from the start of the line
+# For explanations of all config options below see docs/USAGE.md or the man page.
+#
+sync_dir = "/data/data/onedrive"
+# skip_file = "~*|.~*|*.tmp"
+# monitor_interval = "300"
+skip_dir = "바탕 화면|앱|첨부 파일|사진"
+# log_dir = "/var/log/onedrive/"
+# drive_id = ""
+# upload_only = "false"
+
+...
+```
+### <br/>
+
+### 그러면 다음과 같이 폴더가 동기화된다.
+#### ![image](https://github.com/Shin-jongwhan/microsoft_onedrive/assets/62974484/a992cee8-826e-4552-aacd-6e5465ac27b5)
