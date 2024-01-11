@@ -10,6 +10,7 @@
 wget -O test.txt "https://theragenbio365-my.sharepoint.com/:t:/g/personal/jonghwan_shin_theragenbio_com/EdR82mqGw69Dn0nPupOLfDcBaRRYq2wqFDmN5hhUNK8AbQ?e=bOgMfR&download=1"
 ```
 ### 다운로드가 잘 된다.
+### 근데 이 방법은 expired date 가 설정이 되어 있는 것이라서 해결책은 못 된다.
 #### ![image](https://github.com/Shin-jongwhan/microsoft_onedrive/assets/62974484/9375de5d-4f45-43e7-9ed9-7424f66ccea4)
 ### <br/>
 
