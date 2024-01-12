@@ -150,3 +150,16 @@ jhshin_test
 #Top Level to Share
 Config option 'webhook_enabled'              = false
 ```
+### <br/>
+
+### sync 요청
+```
+[onedrive_path]/onedrive --synchronize --resync --sync-shared-folders --verbose --confdir ~/.config/onedrive_shared/
+```
+### <br/>
+
+### sync 되었는지 확인
+### shared folder 가 잘 가져와졌다.
+#### ![image](https://github.com/Shin-jongwhan/microsoft_onedrive/assets/62974484/b16876c6-2ef9-4b11-8399-63851e711aab)
+### <br/>
+
