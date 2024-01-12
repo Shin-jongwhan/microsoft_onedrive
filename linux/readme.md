@@ -67,6 +67,8 @@ sync_business_shared_folders = "true"
 ```
 ./onedrive --list-shared-folders
 ```
+#### ![image](https://github.com/Shin-jongwhan/microsoft_onedrive/assets/62974484/8a5f57fa-104c-44a6-93b5-2a7d5a579d7c)
+### <br/>
 
 ### 그 다음 \[config dir\]/business_shared_folders 파일을 만들어 편집한다.
 ### 여기에 적은 폴더 이름이 가져올 폴더이다.
