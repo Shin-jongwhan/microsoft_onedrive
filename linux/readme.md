@@ -49,3 +49,14 @@ skip_dir = "바탕 화면|앱|첨부 파일|사진"
 
 ### 그러면 다음과 같이 폴더가 동기화된다.
 #### ![image](https://github.com/Shin-jongwhan/microsoft_onedrive/assets/62974484/a992cee8-826e-4552-aacd-6e5465ac27b5)
+### <br/><br/><br/>
+
+## business shared folder 받는 방법
+### 먼저 config 를 수정해야 한다.
+### 여기서 필요한 건 sync_business_shared_folders 이다.
+```
+sync_dir = "/data/data/onedrive_shared"
+skip_dir = "바탕 화면|앱|첨부 파일|사진|Microsoft Teams 채팅 파일|문서|그림"
+skip_symlinks = "false"
+sync_business_shared_folders = "true"
+```
