@@ -87,5 +87,66 @@ jhshin_test
 
 ### config 설정 확인
 ```
-./onedrive --confdir ~/.config/onedrive_shared/ --display-config
+[onedrive_path]/onedrive --confdir ~/.config/onedrive_shared/ --display-config
+```
+
+```
+Configuration file successfully loaded
+onedrive version                             = v2.4.25-13-g1a88d33
+Config path                                  = /home/jhshin/.config/onedrive_shared/
+Config file found in config path             = true
+Config option 'sync_dir'                     = /data/data/onedrive_shared
+Config option 'enable_logging'               = false
+Config option 'log_dir'                      = /var/log/onedrive/
+Config option 'disable_notifications'        = false
+Config option 'min_notify_changes'           = 5
+Config option 'skip_dir'                     = 바탕 화면|앱|첨부 파일|사진|Microsoft Teams 채팅 파일|문서|그림
+Config option 'skip_dir_strict_match'        = false
+Config option 'skip_file'                    = ~*|.~*|*.tmp
+Config option 'skip_dotfiles'                = false
+Config option 'skip_symlinks'                = false
+Config option 'monitor_interval'             = 300
+Config option 'monitor_log_frequency'        = 6
+Config option 'monitor_fullscan_frequency'   = 12
+Config option 'read_only_auth_scope'         = false
+Config option 'dry_run'                      = false
+Config option 'upload_only'                  = false
+Config option 'download_only'                = false
+Config option 'local_first'                  = false
+Config option 'check_nosync'                 = false
+Config option 'check_nomount'                = false
+Config option 'resync'                       = false
+Config option 'resync_auth'                  = false
+Config option 'cleanup_local_files'          = false
+Config option 'classify_as_big_delete'       = 1000
+Config option 'disable_upload_validation'    = false
+Config option 'bypass_data_preservation'     = false
+Config option 'no_remote_delete'             = false
+Config option 'remove_source_files'          = false
+Config option 'sync_dir_permissions'         = 700
+Config option 'sync_file_permissions'        = 600
+Config option 'space_reservation'            = 52428800
+Config option 'application_id'               =
+Config option 'azure_ad_endpoint'            =
+Config option 'azure_tenant_id'              = common
+Config option 'user_agent'                   =
+Config option 'force_http_11'                = false
+Config option 'debug_https'                  = false
+Config option 'rate_limit'                   = 0
+Config option 'operation_timeout'            = 3600
+Config option 'dns_timeout'                  = 60
+Config option 'connect_timeout'              = 10
+Config option 'data_timeout'                 = 600
+Config option 'ip_protocol_version'          = 0
+Config option 'sync_root_files'              = false
+Selective sync 'sync_list' configured        = false
+Config option 'sync_business_shared_folders' = true
+Business Shared Folders configured           = true
+business_shared_folders contents:
+# comment
+2023 한국인칩 분석 교육을 위한 워크샵
+jhshin_test
+# Another comment
+#Top Level to Share
+Config option 'webhook_enabled'              = false
 ```
