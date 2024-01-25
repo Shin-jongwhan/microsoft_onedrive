@@ -161,5 +161,7 @@ Config option 'webhook_enabled'              = false
 ### sync 되었는지 확인
 ### shared folder 가 잘 가져와졌다.
 #### ![image](https://github.com/Shin-jongwhan/microsoft_onedrive/assets/62974484/b16876c6-2ef9-4b11-8399-63851e711aab)
-### <br/>
+### <br/><br/><br/>
 
+## 옵션
+- --single-directory \[path\] : config 에 있는 sync_dir 는 제외하고 path 를 적는다.
