@@ -162,9 +162,9 @@ Config option 'webhook_enabled'              = false
 ```
 [onedrive_path]/onedrive --synchronize --resync --sync-shared-folders --verbose --confdir ~/.config/onedrive_shared/ --single-directory SinlgeCellRunInfo/ --download-only --disable-download-validation
 ```
-### 그런데 이렇게 하면 복사본이 생긴다.
+### 그런데 이렇게 하면 로컬에 있는 파일을 복사본으로 만든다.
 #### ![image](https://github.com/Shin-jongwhan/microsoft_onedrive/assets/62974484/98a2f7f8-9d0a-4d04-928a-9569eddacc8e)
-### --cleanup-local-files 옵션을 쓰면 안 생기고 복사만 가능하다.
+### --cleanup-local-files 옵션을 쓰면 복사본은 안 생기고 onedrive 파일 복사만 가능하게 할 수 있다.
 #### ![image](https://github.com/Shin-jongwhan/microsoft_onedrive/assets/62974484/3bc98b1b-471a-43dd-a717-ef006dc39b9d)
 ### <br/>
 
