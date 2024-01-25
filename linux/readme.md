@@ -158,6 +158,11 @@ Config option 'webhook_enabled'              = false
 ```
 ### <br/>
 
+### sync 되었는지 확인
+### shared folder 가 잘 가져와졌다.
+#### ![image](https://github.com/Shin-jongwhan/microsoft_onedrive/assets/62974484/b16876c6-2ef9-4b11-8399-63851e711aab)
+### <br/>
+
 ### 특정 폴더에 있는 폴더 또는 파일 다운로드만 하기
 ```
 [onedrive_path]/onedrive --synchronize --resync --sync-shared-folders --verbose --confdir ~/.config/onedrive_shared/ --single-directory SinlgeCellRunInfo/ --download-only --disable-download-validation
@@ -166,12 +171,9 @@ Config option 'webhook_enabled'              = false
 #### ![image](https://github.com/Shin-jongwhan/microsoft_onedrive/assets/62974484/98a2f7f8-9d0a-4d04-928a-9569eddacc8e)
 ### --cleanup-local-files 옵션을 쓰면 복사본은 안 생기고 onedrive 파일 복사만 가능하게 할 수 있다.
 #### ![image](https://github.com/Shin-jongwhan/microsoft_onedrive/assets/62974484/3bc98b1b-471a-43dd-a717-ef006dc39b9d)
-### <br/>
 
-### sync 되었는지 확인
-### shared folder 가 잘 가져와졌다.
-#### ![image](https://github.com/Shin-jongwhan/microsoft_onedrive/assets/62974484/b16876c6-2ef9-4b11-8399-63851e711aab)
 ### <br/><br/><br/>
+
 
 ## 옵션
 - --single-directory \[path\] : config 에 있는 sync_dir 는 제외하고 path 를 적는다.
