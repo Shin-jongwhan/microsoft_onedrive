@@ -158,6 +158,12 @@ Config option 'webhook_enabled'              = false
 ```
 ### <br/>
 
+### 특정 폴더에 있는 폴더 또는 파일 다운로드만 하기
+```
+[onedrive_path]/onedrive --synchronize --resync --sync-shared-folders --verbose --confdir ~/.config/onedrive_shared/ --single-directory SinlgeCellRunInfo/ --download-only --disable-download-validation
+```
+### <br/>
+
 ### sync 되었는지 확인
 ### shared folder 가 잘 가져와졌다.
 #### ![image](https://github.com/Shin-jongwhan/microsoft_onedrive/assets/62974484/b16876c6-2ef9-4b11-8399-63851e711aab)
