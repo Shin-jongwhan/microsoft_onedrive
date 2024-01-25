@@ -165,3 +165,6 @@ Config option 'webhook_enabled'              = false
 
 ## 옵션
 - --single-directory \[path\] : config 에 있는 sync_dir 는 제외하고 path 를 적는다.
+- --upload-only : server -> onedrive 로 업로드할 경우 사용한다.
+- --disable-download-validation : download 할 때 validation 을 해제한다.
+- --disable-upload-validation : upload 할 때 validation 을 해제한다.
