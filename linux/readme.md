@@ -1,4 +1,10 @@
 ### 240111
+# onedrive for linux
+### [github](https://github.com/abraunegg/onedrive)
+### third-party tool로 개발되었다.
+### 오류가 좀 많다. sync 부분에서 결함이 많아서 사용하기 어려울 수도 있으니 참고.
+### <br/><br/><br/>
+
 ## wget 으로 onedrive 파일 받는 방법
 ### 먼저 공유 설정에 파일 공유 누르고 공유 설정에서 엑세스 권한을 누구나로 설정한 후 링크 생성을 클릭한다.
 #### ![image](https://github.com/Shin-jongwhan/microsoft_onedrive/assets/62974484/55e14a12-0100-410f-b5dd-785a60a77c6f)
